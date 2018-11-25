@@ -62,6 +62,7 @@ button {
 #btn:hover {
     color: black;
 }
+/***************************************Login***************************************/
 #loger {
     position: absolute;
     top: 50%;
@@ -109,6 +110,7 @@ button {
     background: lightblue;
     color: white;
 }
+/***************************************Sign Up***************************************/
 #signer {
     position: absolute;
     top: 55%;
@@ -156,3 +158,4 @@ button {
     background: lightblue;
     color: white;
 }
+
