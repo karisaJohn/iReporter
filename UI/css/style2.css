@@ -75,7 +75,7 @@ nav {
 }
 .flag p{
     font-weight: bold;
-    font-size: 30px;
+    /*font-size: 30px;*/
 }
 .flag input[name="title"] , textarea {
     width: 100%;
