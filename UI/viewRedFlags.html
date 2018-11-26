@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>iReporter | List of all Red-Flag</title>
+        <link rel="stylesheet" href="css/style2.css">
+    </head>
+    <body>
+        <Nav>
+        <nav class="nav">
+            <a class="logo" href="index.html">iReporter</a>
+            <ul class="right">
+                <li><a href="profile.html">Profile</a></li>
+                <li class="dropbtn"><a href="#">Red-Flag</a>
+                    <ul class="dropdown-content">
+                        <li><a href="addRedFlag.html">Add</a></li>
+                    </ul>
+                </li>
+                <li class="dropbtn"><a href="#">Intervention</a>
+                    <ul class="dropdown-content">
+                        <li><a href="addIntervention.html">Add</a></li>
+                        <li><a href="viewInterventions.html">View</a></li>
+                    </ul>
+                </li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+        </nav>
+        <h1 class="cl">List of all Red-Flags</h1>
+        <table class="format">
+            <tr class="txt">
+                <th>Title</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Edit/Delete</th>
+            </tr>
+            <tr class="outline txt bc">
+                <td>Bribery</td>
+                <td>Company A HR is employing people only if...</td>
+                <td>Pending</td>
+                <td>
+                    <form action="">
+                        <select name="status">
+                            <option value="Edit">Edit</option>
+                            <option value="Delete">Delete</option>
+                        </select>
+                        <input type="submit">
+                    </form>
+                </td>
+            </tr>
+            <tr class="outline txt bc">
+                <td>Misuse of funds</td>
+                <td>Company B accountant has been taking money from the companies account for his personal use.</td>
+                <td>Drafted</td>
+                <td>
+                    <form action="">
+                        <select name="status">
+                            <option value="Edit">Edit</option>
+                            <option value="Delete">Delete</option>
+                        </select>
+                        <input type="submit">
+                    </form>
+                </td>
+            </tr>
+            <tr class="outline txt bc">
+                <td>Nepotism</td>
+                <td>Company C HR is employing...</td>
+                <td>Rejected</td>
+                <td>
+                    <form action="">
+                        <select name="status">
+                            <option value="Edit">Edit</option>
+                            <option value="Delete">Delete</option>
+                        </select>
+                        <input type="submit">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
