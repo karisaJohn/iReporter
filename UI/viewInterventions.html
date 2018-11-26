@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>iReporter | View Interventions</title>
+        <link rel="stylesheet" href="css/style2.css">
+    </head>
+    <body>
+        <Nav>
+        <nav class="nav">
+            <a class="logo" href="index.html">iReporter</a>
+            <ul class="right">
+                <li><a href="profile.html">Profile</a></li>
+                <li class="dropbtn"><a href="#">Red-Flag</a>
+                    <ul class="dropdown-content">
+                        <li><a href="addRedFlag.html">Add</a></li>
+                        <li><a href="viewRedFlags.html">View</a></li>
+                    </ul>
+                </li>
+                <li class="dropbtn"><a href="#">Intervention</a>
+                    <ul class="dropdown-content">
+                        <li><a href="addIntervention.html">Add</a></li>
+                    </ul>
+                </li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+        </nav>
+        <h1 class="cl">List of all Interventions</h1>
+        <table class="format">
+            <tr class="txt">
+                <th>Title</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Edit/Delete</th>
+            </tr>
+            <tr class="outline txt bc">
+                <td>Insecurity</td>
+                <td>There have been a series of theft around these areas of our estate, mostly at night and they...</td>
+                <td>Pending</td>
+                <td>
+                    <form action="">
+                        <select name="status">
+                            <option value="Edit">Edit</option>
+                            <option value="Delete">Delete</option>
+                        </select>
+                        <input type="Submit">
+                    </form>
+                </td>
+            </tr>
+            <tr class="outline txt bc">
+                <td>Flooding</td>
+                <td>Our area has constantly been affected by server flooding everytime it rains.</td>
+                <td>Drafted</td>
+                <td>
+                    <form action="">
+                        <select name="status">
+                            <option value="Edit">Edit</option>
+                            <option value="Delete">Delete</option>
+                        </select>
+                        <input type="submit">
+                    </form>
+                </td>
+            </tr>
+            <tr class="outline txt bc">
+                <td>Bad roads</td>
+                <td>Roads leading to town from our estate are in a bad state and we are at risk damaging our cars.</td>
+                <td>Rejected</td>
+                <td>
+                    <form action="">
+                        <select name="status">
+                            <option value="Edit">Edit</option>
+                            <option value="Delete">Delete</option>
+                        </select>
+                        <input type="submit">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
